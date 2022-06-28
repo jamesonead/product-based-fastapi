@@ -1,0 +1,5 @@
+## Build the Docker Image
+docker build -t product-based-fastapi .
+
+## Start the Docker Container
+docker run -d --name product-based-fastapi -p 8000:80 product-based-fastapi
