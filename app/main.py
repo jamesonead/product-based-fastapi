@@ -8,7 +8,7 @@ import json
 
 app = FastAPI()
 
-ES_HOST = '35.229.200.90'
+ES_HOST = '104.199.237.73'
 ES_INDEX = 'moat_v6'
 
 class Item(BaseModel):
